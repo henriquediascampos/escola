@@ -1,4 +1,5 @@
 import { Component } from '@angular/core';
+import { CustomIconsService } from './customize/custom-icons.service';
 
 @Component({
   selector: 'app-root',
@@ -7,4 +8,6 @@ import { Component } from '@angular/core';
 })
 export class AppComponent {
   title = 'escola';
+
+  constructor(customIconsService: CustomIconsService) {  }
 }

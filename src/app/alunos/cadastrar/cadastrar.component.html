@@ -1,0 +1,15 @@
+<h2>Cadastro de Alunos</h2>
+<form class="form-container">
+  <mat-form-field>
+    <input matInput placeholder="Nome" name="name" [(ngModel)]='aluno.nome'>
+  </mat-form-field>
+
+  <mat-form-field>
+    <input matInput placeholder="Idade" name="idade" [(ngModel)]='aluno.idade'>
+  </mat-form-field>
+
+  <div class="button-row">
+    <button mat-stroked-button (click)='cadastrar(aluno.id)' color="primary">Cadastrar</button>
+    <button mat-stroked-button [routerLink]="['/alunos/listar']" color="warn">Cancelar</button>
+  </div>
+</form>

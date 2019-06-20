@@ -1,1 +1,44 @@
 /* You can add global styles to this file, and also import other style files */
+@import "~@angular/material/prebuilt-themes/indigo-pink.css";
+
+.icon {
+  margin-right: 3px;
+  color: rgb(83, 83, 83);
+  cursor: pointer;
+}
+
+.icon:hover {
+  color: rgb(0, 0, 0);
+}
+
+.title {
+  margin-left: 8px;
+  font-family: Roboto,"Helvetica Neue",sans-serif;
+  color: gray;
+}
+
+.flex {
+  display: flex;
+}
+
+.flex--space-between {
+  justify-content: space-between;
+}
+
+.form-container {
+  display: flex;
+  flex-direction: column;
+}
+
+.form-container > * {
+  width: 100%;
+}
+.button-row {
+  display: flex;
+  width: 100%;
+  justify-content: center
+}
+
+.button-row button {
+  margin-right: 8px;
+}

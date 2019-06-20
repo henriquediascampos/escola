@@ -1,0 +1,24 @@
+#table {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+}
+
+#table *.mat-header-row,
+#table *.mat-row,
+#table * td,
+#table * th {
+  display: flex;
+  justify-content: center;
+  width: 100%;
+}
+
+#table * td,
+#table * th {
+  align-items: center;
+}
+
+#table * th {
+  font-size: 13pt;
+  font-weight: bold;
+}
