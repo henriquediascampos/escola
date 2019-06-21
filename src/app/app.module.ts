@@ -33,7 +33,6 @@ import { DialogService } from './util/dialogs/dialogs.service';
   ],
   providers: [
     AlunosService,
-    HttpClientModule,
     CustomIconsService,
     DialogService,
   ],

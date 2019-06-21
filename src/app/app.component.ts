@@ -9,5 +9,5 @@ import { CustomIconsService } from './customize/custom-icons.service';
 export class AppComponent {
   title = 'escola';
 
-  constructor(customIconsService: CustomIconsService) {  }
+  constructor() {  }
 }
