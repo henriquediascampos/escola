@@ -2,7 +2,6 @@ import { BrowserModule } from '@angular/platform-browser';
 import { NgModule } from '@angular/core';
 import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
 import { CustomMaterialModuleModule } from './customize/custom-material-module.module';
-import { CustomIconsService } from './customize/custom-icons.service';
 import { AlunosService } from './alunos/services/alunos.service';
 import { AppRoutingModule } from './customize/app-routing.module';
 
@@ -33,12 +32,11 @@ import { DialogService } from './util/dialogs/dialogs.service';
   ],
   providers: [
     AlunosService,
-    CustomIconsService,
     DialogService,
   ],
   entryComponents: [
     DialogSimpleMensageComponent
   ],
-  bootstrap: [AppComponent]
+  bootstrap: [ AppComponent ]
 })
 export class AppModule { }

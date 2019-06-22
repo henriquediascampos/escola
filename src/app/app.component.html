@@ -3,19 +3,19 @@
     <legend class="logo" [routerLink]="['/alunos/listar']">Escola</legend>
     <div>
       <button mat-icon-button [matMenuTriggerFor]="menu">
-        <mat-icon class="menu" svgIcon="icon-menu"></mat-icon>
+        <mat-icon class="menu">more_vert</mat-icon>
       </button>
       <mat-menu #menu="matMenu">
         <button mat-menu-item [routerLink]="['']">
-          <mat-icon svgIcon="icon-home"></mat-icon>
+          <mat-icon>home</mat-icon>
           <span>Home</span>
         </button>
         <button mat-menu-item [routerLink]="['alunos/listar']">
-          <mat-icon svgIcon="icon-list"></mat-icon>
+          <mat-icon>list</mat-icon>
           <span>Lista de Alunos</span>
         </button>
         <button mat-menu-item [routerLink]="['alunos/cadastrar']">
-          <mat-icon svgIcon="icon-save"></mat-icon>
+          <mat-icon>save</mat-icon>
           <span>Cadastrar Aluno</span>
         </button>
       </mat-menu>

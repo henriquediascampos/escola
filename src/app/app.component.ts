@@ -1,5 +1,4 @@
 import { Component } from '@angular/core';
-import { CustomIconsService } from './customize/custom-icons.service';
 
 @Component({
   selector: 'app-root',
