@@ -40,7 +40,7 @@ export class AlunosComponent implements OnInit {
 
   openDialog(id: number) {
     const dialogRef = this.dialogService
-      .openDialogSimpleMensage(
+      .openDialogConfirmation(
         `Tem certeza que deseja excluir este cadastro`);
 
       dialogRef.afterClosed().subscribe(result => {

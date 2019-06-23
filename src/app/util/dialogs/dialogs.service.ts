@@ -11,7 +11,7 @@ export class DialogService {
     private dialog: MatDialog,
     ) {}
 
-  openDialogSimpleMensage (msgTeste: string, width?: string, height?: string): any {
+  openDialogConfirmation (msgTeste: string, width?: string, height?: string): any {
     return this.dialog.open(DialogSimpleMensageComponent, {
       width: width || 'auto',
       height: height || 'auto',
